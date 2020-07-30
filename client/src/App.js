@@ -18,7 +18,7 @@ import { Provider } from 'react-redux';
 import store from './store';
 import { loadUser } from './actions/auth';
 import AddEducation from './components/profile-forms/AddEducation';
-import Profile from './components/profiles/Profile';
+import Profile from './components/profile/Profile';
 if (localStorage.token) {
   //set the header with token if there is one
   setAuthToken(localStorage.token);
