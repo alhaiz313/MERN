@@ -14,6 +14,7 @@ import EditProfile from './components/profile-forms/EditProfile';
 import AddExperience from './components/profile-forms/AddExperience';
 import Profiles from './components/profiles/Profiles';
 import Posts from './components/posts/Posts';
+import Post from './components/post/Post';
 //redux
 import { Provider } from 'react-redux';
 import store from './store';
@@ -65,6 +66,7 @@ const App = () => {
                 component={AddEducation}
               />
               <PrivateRoute exact path='/posts' component={Posts} />
+              <PrivateRoute exact path='/posts/:id' component={Post} />
             </Switch>
           </section>
         </Fragment>
