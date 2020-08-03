@@ -4,5 +4,5 @@ A small professional social network developed using MERN stack front to back *(M
 Created whilst learning froma course on Udemy  
 
 Deployed using heroku  
-Demo https://tranquil-reef-31809.herokuapp.com/dashboard
+Demo https://tranquil-reef-31809.herokuapp.com/
 
